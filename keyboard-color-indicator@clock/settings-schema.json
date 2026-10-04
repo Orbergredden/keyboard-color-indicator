@@ -1,0 +1,78 @@
+{
+     "time-format": {
+         "type": "entry",
+         "default": "%H:%M",
+         "description": "Формат часу (strftime)",
+         "tooltip": "Наприклад: %H:%M — 14:32, %H:%M:%S — з секундами, %I:%M %p — 12-годинний"
+     },
+     "bg-en": {
+         "type": "colorchooser",
+         "default": "#27ae60",
+         "description": "Фон аплету для EN (US)",
+         "tooltip": "Яскрава заливка всього аплету коли EN"
+     },
+     "fg-en": {
+         "type": "colorchooser",
+         "default": "#ffffff",
+         "description": "Колір тексту для EN",
+         "tooltip": "Колір цифр на фоні EN"
+     },
+     "bg-ua": {
+         "type": "colorchooser",
+         "default": "#ffd700",
+         "description": "Фон аплету для UA",
+         "tooltip": "Яскрава заливка всього аплету коли UA (за замовчуванням жовта)"
+     },
+     "fg-ua": {
+         "type": "colorchooser",
+         "default": "#0057b7",
+         "description": "Колір тексту для UA",
+         "tooltip": "Колір цифр на фоні UA (за замовчуванням синій — кольори прапора)"
+     },
+     "bg-other": {
+         "type": "colorchooser",
+         "default": "#7f8c8d",
+         "description": "Фон для інших розкладок",
+         "tooltip": "Якщо з'явиться третя розкладка"
+     },
+     "fg-other": {
+         "type": "colorchooser",
+         "default": "#ffffff",
+         "description": "Колір тексту для інших розкладок"
+     },
+     "font-size": {
+         "type": "scale",
+         "default": 14,
+         "min": 10,
+         "max": 28,
+         "step": 1,
+         "description": "Розмір шрифту (px)",
+         "tooltip": "10 — дрібно, 14-18 — добре видно, 24+ — дуже велико"
+     },
+     "bold": {
+         "type": "switch",
+         "default": true,
+         "description": "Жирний шрифт"
+     },
+     "border-radius": {
+         "type": "scale",
+         "default": 6,
+         "min": 0,
+         "max": 16,
+         "step": 1,
+         "description": "Заокруглення фону (px)"
+     },
+     "h-padding": {
+         "type": "scale",
+         "default": 10,
+         "min": 2,
+         "max": 30,
+         "step": 1,
+         "description": "Бокові відступи (ширина плашки)"
+     },
+     "show-tooltip": {
+         "type": "switch",
+         "default": true,
+         "description": "Показувати підказку з датою і розкладкою"
+     }
+ }

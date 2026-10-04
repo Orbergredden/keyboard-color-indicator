@@ -1,0 +1,11 @@
+/* Базовий клас, основний фон задається з applet.js через set_style() */
+.kbd-color-indicator {
+    font-weight: bold;
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+
+.kbd-color-indicator StLabel {
+    padding-top: 1px;
+    padding-bottom: 1px;
+}
