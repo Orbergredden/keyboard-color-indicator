@@ -1,6 +1,6 @@
 # Keyboard Color Indicator
 
-v.1.00.00.001 2026-09-25  
+v.1.00.00.002 2026-09-25 - 2026-10-04
 
 Яскравий аплет розкладки для Linux Mint Cinnamon 6.6 (X11 + Wayland-safe).
 Замість маленького прапорця внизу — велика кольорова плашка на панелі:
@@ -24,7 +24,7 @@ install.sh             — копіює аплет у ~/.local/share/... (зап
 ## Встановлення (виконуєте ви)
 
 ```bash
-cd /home/igor/_prog/keyboard-color-indicator
+cd /Path/keyboard-color-indicator
 ./install.sh
 ```
 
